@@ -1,0 +1,14 @@
+player ambient
+player music
+
+surface bg : (zIndex: 5, singleSprite: true)
+surface bgOverlay : (zIndex: 6)
+surface ch : (zIndex: 10)
+
+scene start {
+    clean ch
+    clean bgOverlay
+    clean dialog
+
+    jump briefing
+}
